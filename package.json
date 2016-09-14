@@ -24,7 +24,7 @@
     "url": "https://github.com/gajus/stylelint-config-canonical"
   },
   "scripts": {
-    "format": "jsonlint --sort-keys --in-place --indent '    ' ./stylelintrc.json",
+    "format": "jsonlint --sort-keys --in-place --indent '  ' ./stylelintrc.json",
     "postversion": "npm run format",
     "test": ""
   },
