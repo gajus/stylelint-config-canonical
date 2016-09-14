@@ -9,8 +9,9 @@
   },
   "description": "Canonical stylelint Shareable Config",
   "devDependencies": {
-    "stylelint": "^7.2.0",
-    "jsonlint": "^1.6.2"
+    "husky": "^0.11.7",
+    "jsonlint": "^1.6.2",
+    "stylelint": "^7.2.0"
   },
   "keywords": [
     "stylelint",
@@ -25,7 +26,7 @@
   },
   "scripts": {
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./stylelintrc.json && echo '' >> ./stylelintrc.json",
-    "postversion": "npm run format",
+    "precommit": "npm run format",
     "test": ""
   },
   "version": "1.0.4"
