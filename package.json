@@ -5,13 +5,14 @@
     "url": "http://gajus.com"
   },
   "dependencies": {
-    "stylelint-config-standard": "^13.0.0"
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.4.4"
   },
   "description": "Canonical stylelint Shareable Config",
   "devDependencies": {
-    "husky": "^0.11.7",
+    "husky": "^0.13.3",
     "jsonlint": "^1.6.2",
-    "stylelint": "^7.2.0"
+    "stylelint": "^7.10.1"
   },
   "keywords": [
     "stylelint",
